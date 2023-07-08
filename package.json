@@ -1,0 +1,24 @@
+{
+  "name": "autotests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "open": "cypress open",
+    "run": "сypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Y1aku/autotests.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Y1aku/autotests/issues"
+  },
+  "homepage": "https://github.com/Y1aku/autotests#readme",
+  "devDependencies": {
+    "cypress": "^12.17.0"
+  }
+}

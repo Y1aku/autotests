@@ -1,0 +1,3 @@
+{
+  "content": "Cypress.Commands.add('console', {\n  prevSubject: true,\n}, (subject, method) => {\n  method = method || 'log'\n\n  // log the subject to the console\n  console[method]('The subject is', subject)\n  return subject"
+}
